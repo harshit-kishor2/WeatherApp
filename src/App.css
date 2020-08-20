@@ -1,0 +1,48 @@
+body{
+    background: #ff9993;
+}
+.title-container{
+    background: Darkred;
+    width: 100%;
+    height: 10%;
+    border: 2px solid red;
+    text-align: center;
+    color:white;
+}
+.form-container{
+    background: pink ;
+    width: 20%;
+    height: 500px;
+    border: 2px solid red;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+form input[name='city'],form input[name='country']{
+    width: 100%;
+    background: transparent;
+    color: black;
+    border: 0;
+    margin-top: 50px;
+    border-bottom: 2px solid blue;    
+}
+Button{
+    margin-top:12px ;
+    background-color: #ff9993;
+}
+.weather-container{
+    background: pink ;
+    width: 80%;
+    height: 500px;
+    border: 2px solid red;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
